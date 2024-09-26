@@ -41,13 +41,12 @@ sections:
     content:
       title: About Me
       items:
-        - icon: human
+        - statistic: "😀"
           description: |
             문유빈
-        - statistic: "10k+"
+        - statistic: "📞"
           description: |
-            GitHub stars  
-            since 2016
+            010-5329-5744
         - statistic: "3k+"
           description: |
             Discord community  
