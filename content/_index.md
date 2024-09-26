@@ -41,21 +41,21 @@ sections:
     content:
       title: About Me
       items:
-        - stat: "문유빈"
-          description: |
+        - name: name
+          description: 문유빈
+        - name: phone number
+          description: 010-5329-5744
 
-        - stat: "01053295744"
-          description: |
-
-        - stat: "devyubin@gmail.com"
-          description: |
-            
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
+      columns: '3'
+      view: list
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
+  
+  
   - block: features
     id: features
     content:
