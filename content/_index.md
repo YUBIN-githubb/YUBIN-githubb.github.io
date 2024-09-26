@@ -38,8 +38,9 @@ sections:
           filters:
             brightness: 0.5
   - block: markdown
-      title: About Me
-      text: test text
+      content:
+        title: About Me
+        text: test text
     # design:
     #   # Section background color (CSS class)
     #   css_class: "bg-gray-100 dark:bg-gray-900"
