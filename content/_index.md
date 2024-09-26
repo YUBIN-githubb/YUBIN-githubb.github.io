@@ -38,18 +38,14 @@ sections:
           filters:
             brightness: 0.5
   - block: markdown
-      id: section-1
       title: About Me
       text: test text
-    
-    design:
-      # Section background color (CSS class)
-      css_class: "bg-gray-100 dark:bg-gray-900"
-      # Reduce spacing
-      spacing:
-        padding: ["1rem", 0, "1rem", 0]
-  
-  
+    # design:
+    #   # Section background color (CSS class)
+    #   css_class: "bg-gray-100 dark:bg-gray-900"
+    #   # Reduce spacing
+    #   spacing:
+    #     padding: ["1rem", 0, "1rem", 0]
   - block: features
     id: features
     content:
