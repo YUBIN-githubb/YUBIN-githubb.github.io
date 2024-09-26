@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: 문유빈 개발자 포트폴리오
-      text: 안녕하세요. 쉽고 간단할 걸 추구하는 백엔드개발자 문유빈입니다.  
+      text: 안녕하세요😊 쉽고 간단할 걸 추구하는 백엔드개발자 문유빈입니다.  
       primary_action:
         text: GitHub
         url: https://github.com/YUBIN-githubb
@@ -39,11 +39,11 @@ sections:
             brightness: 0.5
   - block: stats
     content:
+      title: About Me
       items:
-        - statistic: "1M+"
+        - icon: human
           description: |
-            Websites built  
-            with Hugo Blox
+            문유빈
         - statistic: "10k+"
           description: |
             GitHub stars  
