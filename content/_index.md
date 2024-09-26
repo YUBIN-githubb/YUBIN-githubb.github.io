@@ -43,14 +43,15 @@ sections:
         - statistic: "Profile"
           description: |
             문유빈  
-              2002.10.04
+            2002.10.04
         - statistic: "Contact"
           description: |
             010-5329-5744  
             devyubin@gmail.com
         - statistic: "Education"
           description: |
-            전북대학교 바이오메디컬공학부 헬스케어정보공학전공 학사, 전북대학교 IT정보공학과 학사  
+            전북대학교 바이오메디컬공학부 헬스케어정보공학전공 학사  
+            전북대학교 IT정보공학과 학사  
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
