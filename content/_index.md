@@ -41,16 +41,15 @@ sections:
     content:
       title: About Me
       items:
-        - name: 이름
-          icon: man
-          description: 문유빈
-        - name: 전화번호
-          icon: 📞
-          description: 01053295744
-        - name: 이메일
-          icon: man
-          description: devyubin@gmail.com
-        
+        - stat: "문유빈"
+          description: |
+
+        - stat: "01053295744"
+          description: |
+
+        - stat: "devyubin@gmail.com"
+          description: |
+            
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
