@@ -37,26 +37,14 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: stats
-    content:
-      items:
-        - statistic: "문유빈"
-          description: |
-            010-5329-5744
-        - statistic: "2002.10.04"
-          description: |
-            
-        - statistic: "JBNU"
-          description: |
-            전북대학교 바이오메디컬 헬스케어정보공학전공 학사
-            전북대학교 IT정보공학과 학사  
-
-
+  - block: markdown
+      id: section-1
+      title: About Me
+      text: test text
+    
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
-      columns: '3'
-      view: list
       # Reduce spacing
       spacing:
         padding: ["1rem", 0, "1rem", 0]
