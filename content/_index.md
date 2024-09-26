@@ -43,6 +43,7 @@ sections:
       items:
         - statistic: "😀"
           description: |
+            
             문유빈
         - statistic: "📞"
           description: |
