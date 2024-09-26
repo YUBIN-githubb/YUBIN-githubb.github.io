@@ -43,7 +43,7 @@ sections:
         - statistic: "Profile"
           description: |
             문유빈
-            쉽고 간단한 개발을 추구합니다👍
+            2002.10.04
         - statistic: "Contact"
           description: |
             010-5329-5744  
