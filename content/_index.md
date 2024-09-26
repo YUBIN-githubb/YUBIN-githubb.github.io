@@ -39,16 +39,23 @@ sections:
             brightness: 0.5
   - block: stats
     content:
-      title: About Me
       items:
-        - name: name
-          description: 문유빈
-        - name: phone number
-          description: 010-5329-5744
-        - name : email
-          description: devyubin@gmail.com
-        - name: education
-          description: 전북대학교 바이오메디컬공학부 헬스케어공학과 학사, IT정보공학과 학사
+        - statistic: "문유빈"
+          description: |
+            Websites built  
+            with Hugo Blox
+        - statistic: "2002.10.04"
+          description: |
+            GitHub stars  
+            since 2016
+        - statistic: "devyubin@gamil.com"
+          description: |
+            Discord community  
+            for support
+        - statistic: "JBNU"
+          description: |
+            Discord community  
+            for support
 
     design:
       # Section background color (CSS class)
