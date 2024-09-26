@@ -37,16 +37,26 @@ sections:
           filename: bg-triangles.svg
           filters:
             brightness: 0.5
-  - block: markdown
-      content:
-        title: About Me
-        text: test text
-    # design:
-    #   # Section background color (CSS class)
-    #   css_class: "bg-gray-100 dark:bg-gray-900"
-    #   # Reduce spacing
-    #   spacing:
-    #     padding: ["1rem", 0, "1rem", 0]
+  - block: stats
+    content:
+      items:
+        - statistic: "Profile"
+          description: |
+            문유빈
+            쉽고 간단한 개발을 추구합니다👍
+        - statistic: "Contact"
+          description: |
+            010-5329-5744  
+            devyubin@gmail.com
+        - statistic: "Education"
+          description: |
+            전북대학교 바이오메디컬공학부 헬스케어정보공학전공 학사, 전북대학교 IT정보공학과 학사  
+    design:
+      # Section background color (CSS class)
+      css_class: "bg-gray-100 dark:bg-gray-900"
+      # Reduce spacing
+      spacing:
+        padding: ["1rem", 0, "1rem", 0]
   - block: features
     id: features
     content:
