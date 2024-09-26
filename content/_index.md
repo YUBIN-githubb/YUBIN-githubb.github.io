@@ -48,8 +48,7 @@ sections:
         - name : email
           description: devyubin@gmail.com
         - name: education
-          description: 전북대학교 바이오메디컬공학부 헬스케어공학과 학사
-          IT정보공학과 학사
+          description: 전북대학교 바이오메디컬공학부 헬스케어공학과 학사, IT정보공학과 학사
 
     design:
       # Section background color (CSS class)
