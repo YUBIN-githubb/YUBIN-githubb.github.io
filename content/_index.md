@@ -41,17 +41,16 @@ sections:
     content:
       title: About Me
       items:
-        - statistic: "😀"
-          description: |
-            
-            문유빈
-        - statistic: "📞"
-          description: |
-            010-5329-5744
-        - statistic: "3k+"
-          description: |
-            Discord community  
-            for support
+        - name: 이름
+          icon: man
+          description: 문유빈
+        - name: 전화번호
+          icon: 📞
+          description: 01053295744
+        - name: 이메일
+          icon: man
+          description: devyubin@gmail.com
+        
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
