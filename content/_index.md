@@ -42,20 +42,15 @@ sections:
       items:
         - statistic: "문유빈"
           description: |
-            Websites built  
-            with Hugo Blox
+            010-5329-5744
         - statistic: "2002.10.04"
           description: |
-            GitHub stars  
-            since 2016
-        - statistic: "devyubin@gamil.com"
-          description: |
-            Discord community  
-            for support
+            
         - statistic: "JBNU"
           description: |
-            Discord community  
-            for support
+            전북대학교 바이오메디컬 헬스케어정보공학전공 학사
+            전북대학교 IT정보공학과 학사  
+
 
     design:
       # Section background color (CSS class)
