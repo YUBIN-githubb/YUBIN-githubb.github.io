@@ -42,8 +42,8 @@ sections:
       items:
         - statistic: "Profile"
           description: |
-            문유빈
-            2002.10.04
+            문유빈  
+              2002.10.04
         - statistic: "Contact"
           description: |
             010-5329-5744  
