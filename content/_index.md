@@ -10,14 +10,14 @@ design:
 sections:
   - block: hero
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 EASY. FREE (OPEN SOURCE). NO-CODE  🧱
+      title: 문유빈 개발자 포트폴리오
+      text: 안녕하세요. 쉽고 간단할 걸 추구하는 백엔드개발자 문유빈입니다.  
       primary_action:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-        icon: rocket-launch
+        text: GitHub
+        url: https://github.com/YUBIN-githubb
+        icon: cat
       secondary_action:
-        text: Read the docs
+        text: Read the resume
         url: https://docs.hugoblox.com
       announcement:
         text: "Announcing the release of version 1."
