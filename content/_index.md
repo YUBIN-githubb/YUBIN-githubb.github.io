@@ -41,15 +41,15 @@ sections:
     content:
       items:
         - statistic: "Profile"
-          description: |
+          description: |  
             문유빈  
             2002.10.04
         - statistic: "Contact"
-          description: |
+          description: |  
             010-5329-5744  
             devyubin@gmail.com
         - statistic: "Education"
-          description: |
+          description: |  
             전북대학교 바이오메디컬공학부 헬스케어정보공학전공 학사  
             전북대학교 IT정보공학과 학사  
     design:
@@ -73,9 +73,9 @@ sections:
         - name: Java
           icon: sparkles
           description: Springboot
-        # - name: No-Code
-        #   icon: code-bracket
-        #   description: Edit and design your site just using rich text (Markdown) and configurable YAML parameters.
+        - name: AI
+          icon: code-bracket
+          description: RAG, TextMining
         # - name: Highly Rated
         #   icon: star
         #   description: Rated 5-stars by the community.
