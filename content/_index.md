@@ -76,9 +76,9 @@ sections:
         - name: AI
           icon: code-bracket
           description: RAG, TextMining
-        # - name: Highly Rated
-        #   icon: star
-        #   description: Rated 5-stars by the community.
+        - name: Visualization
+          icon: star
+          description: R, Python
         # - name: Swappable Blocks
         #   icon: rectangle-group
         #   description: Build your pages with blocks - no coding required!
