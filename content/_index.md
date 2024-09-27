@@ -38,6 +38,7 @@ sections:
           filters:
             brightness: 0.5
   - block: stats
+    id: info
     content:
       items:
         - statistic: "Profile"
@@ -59,7 +60,7 @@ sections:
       spacing:
         padding: ["1rem", 0, "1rem", 0]
   - block: features
-    id: features
+    id: skills
     content:
       title: Skills
       #text: Build your site with blocks 🧱
@@ -83,7 +84,7 @@ sections:
         #   icon: rectangle-group
         #   description: Build your pages with blocks - no coding required!
   - block: cta-image-paragraph
-    id: solutions
+    id: graduation-project
     content:
       items:
         - title: RAG를 적용한 의료기기 임상시험 가이드라인 AI
