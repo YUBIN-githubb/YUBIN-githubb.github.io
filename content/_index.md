@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: 문유빈 개발자 포트폴리오
-      text: 안녕하세요😊 쉽고 간단할 걸 추구하는 백엔드개발자 문유빈입니다.  
+      text: 안녕하세요😊 쉽고 간단할 걸 추구하는 개발자 문유빈입니다.  
       primary_action:
         text: GitHub
         url: https://github.com/YUBIN-githubb
@@ -118,11 +118,13 @@ sections:
       title: ""
       text: ""
       items:
-        - name: "Hugo Smith"
-          role: "Marketing Executive at X"
+        - name: "문유빈"
+          role: "Software Engineering"
           # Upload image to `assets/media/` and reference the filename here
           image: "testimonial-1.jpg"
-          text: "Awesome, so easy to use and saved me so much work with the swappable pre-designed sections!"
+          text: "😎 모든것은 재미있어야 합니다
+          👌 불편한 점을 개선하는 걸 좋아합니다
+          🦻 쉽게 말하고 열심히 들으려고 노력합니다"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
