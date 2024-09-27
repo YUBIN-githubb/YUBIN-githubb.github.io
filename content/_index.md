@@ -131,10 +131,10 @@ sections:
         padding: ["6rem", 0, 0, 0]
   - block: cta-card
     content:
-      title: Build your future-proof website
-      text: As easy as 1, 2, 3!
+      title: 팀에 기여할 준비가 되어있습니다!
+      text: 이력서를 확인해주세요
       button:
-        text: Get Started
+        text: Resume
         url: https://hugoblox.com/templates/
     design:
       card:
