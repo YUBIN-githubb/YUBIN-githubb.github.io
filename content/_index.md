@@ -9,6 +9,7 @@ design:
 
 sections:
   - block: hero
+    id: top
     content:
       title: 문유빈 개발자 포트폴리오
       text: 안녕하세요😊 쉽고 간단할 걸 추구하는 개발자 문유빈입니다.  
