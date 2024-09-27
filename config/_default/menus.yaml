@@ -4,9 +4,9 @@
 
 main:
   - name: Home
-    url: /
+    url: /#top
     weight: 10
-    name: Info
+  - name: Info
     url: /#info
     weight: 20
   - name: Skills
