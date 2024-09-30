@@ -34,7 +34,7 @@ header:
     align: "center"
     fixed_to_top: true
     logo:
-      # text: "YUBIN"
+      text: "YUBIN"
       # Logo filename in `assets/media/` folder
       filename: "logo.png"
     button:
