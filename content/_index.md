@@ -1,5 +1,5 @@
 ---
-title: 'Home'
+title: ''MOON YUBIN
 date: 2023-10-24
 type: landing
 
@@ -20,11 +20,11 @@ sections:
       secondary_action:
         text: Read the resume
         url: https://docs.hugoblox.com
-      announcement:
-        text: "Announcing the release of version 1."
-        link:
-          text: "Read more"
-          url: "/blog/"
+      # announcement:
+      #   text: ""
+      #   link:
+      #     text: "Read more"
+      #     url: "/blog/"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -35,7 +35,7 @@ sections:
         color: "navy"
         image:
           # Add your image background to `assets/media/`.
-          filename: bg-triangles.svg
+          filename: main-background.png
           filters:
             brightness: 0.5
   - block: stats
