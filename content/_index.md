@@ -67,7 +67,7 @@ sections:
       #text: Build your site with blocks 🧱
       items:
         - name: Python
-          icon: magnifying-glass
+          icon: /assets/media/icons/custom/python-icon.png
           description: Django, Flask
         - name: Javascript
           icon: bolt
