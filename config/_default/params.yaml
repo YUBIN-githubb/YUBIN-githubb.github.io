@@ -36,7 +36,7 @@ header:
     logo:
       # text: "YUBIN"
       # Logo filename in `assets/media/` folder
-      filename: "main-background.png"
+      filename: "main-logo.png"
     button:
       enable: true
       text: "Get Started"
