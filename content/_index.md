@@ -1,5 +1,5 @@
 ---
-title: ''MOON YUBIN
+title: 'MOON YUBIN'
 date: 2023-10-24
 type: landing
 
