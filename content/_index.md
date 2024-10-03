@@ -67,19 +67,19 @@ sections:
       #text: Build your site with blocks 🧱
       items:
         - name: Python
-          icon: hb/python
+          icon: custom/python-logo
           description: Django, Flask
         - name: Javascript
-          icon: bolt
+          icon: custom/javascript-logo
           description: express, Node.js
         - name: Java
           icon: custom/java-logo
           description: Springboot
         - name: AI
-          icon: code-bracket
+          icon: custom/robot-logo
           description: Lagnchain, RAG, TextMining
         - name: Visualization
-          icon: star
+          icon: custom/chart-logo
           description: R, Python
         # - name: Swappable Blocks
         #   icon: rectangle-group
