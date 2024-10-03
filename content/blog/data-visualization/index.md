@@ -1,7 +1,7 @@
 ---
-title: 📈 Communicate your results effectively with the best data visualizations
-summary: Use popular tools such as Plotly, Mermaid, and data frames.
-date: 2023-10-25
+title: Node.js를 활용한 웹페이지 개발
+summary: Node.js와 express를 활용해서 축구 커뮤니티 페이지를 만들어보자! 
+date: 2023-04-01
 authors:
   - admin
 tags:
