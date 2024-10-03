@@ -16,6 +16,7 @@ sections:
       primary_action:
         text: GitHub
         url: https://github.com/YUBIN-githubb
+        icon: brands/github
       secondary_action:
         text: Read the resume
         url: https://docs.hugoblox.com
@@ -66,13 +67,13 @@ sections:
       #text: Build your site with blocks 🧱
       items:
         - name: Python
-          icon: brands/github
+          icon: hb/python
           description: Django, Flask
         - name: Javascript
           icon: bolt
           description: express, Node.js
         - name: Java
-          icon: sparkles
+          icon: custom/java-logo
           description: Springboot
         - name: AI
           icon: code-bracket
