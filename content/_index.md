@@ -66,7 +66,7 @@ sections:
       #text: Build your site with blocks 🧱
       items:
         - name: Python
-          icon: \assets\media\bg-triangles.svg
+          icon: brands/github
           description: Django, Flask
         - name: Javascript
           icon: bolt
