@@ -12,134 +12,33 @@ image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
+축구를 좋아하는 사람이라면 자신만의 축구 커뮤니티를 만들고 싶다는 생각을 한 번쯤 해봤을 것입니다. 이번 글에서는 Node.js와 Express를 사용하여 축구 커뮤니티 페이지를 만드는 과정을 설명하려고 합니다. 기본적인 사용자 등록, 게시판 기능 등을 구현하며 Node.js와 Express의 기본 개념을 익힐 수 있습니다.
 
-Use popular tools such as Plotly, Mermaid, and data frames.
+## 프로젝트 개요
 
-## Charts
+우리가 만들 프로젝트는 축구 팬들이 소통할 수 있는 커뮤니티 페이지입니다. 다음과 같은 기능을 포함할 예정입니다:
 
-Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
+회원가입 및 로그인: 사용자들이 커뮤니티에 참여할 수 있도록 계정을 만들고 로그인할 수 있게 합니다.
+게시판: 축구와 관련된 글을 올리거나 댓글을 달아 서로 소통할 수 있는 공간을 만듭니다. 좋아요와 싫어요 기능이 있으며 게시글의 조회수도 표시됩니다.
+프로필 관리: 사용자는 자신의 원하는 사진, 닉네임으로 프로필을 수정가능합니다.
+이러한 기능을 중심으로 간단한 웹 애플리케이션을 구축해보겠습니다.
 
-Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
 
-Demo:
+## 개발 환경 설정
 
-{{< chart data="line-chart" >}}
+우선 개발을 시작하기 전에 Node.js와 Express를 설치하고 프로젝트 환경을 구성해야 합니다.
 
-You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
+Node.js 설치
+Node.js는 서버 측 자바스크립트 환경으로, 비동기 처리를 통해 고성능 웹 애플리케이션을 만들 수 있습니다. 먼저 Node.js 공식 사이트에서 Node.js를 다운로드하고 설치하세요.
 
-## Diagrams
+Express 설치
+Express는 Node.js 위에서 돌아가는 웹 프레임워크로, 간단하게 서버를 설정하고 HTTP 요청을 처리할 수 있습니다. Express는 기본적인 웹 애플리케이션을 빠르게 구축하는 데 매우 유용합니다.
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+프로젝트 폴더를 생성한 후, 다음 명령어를 통해 Express를 설치합니다
 
-An example **flowchart**:
-
-    ```mermaid
-    graph TD
-    A[Hard] -->|Text| B(Round)
-    B --> C{Decision}
-    C -->|One| D[Result 1]
-    C -->|Two| E[Result 2]
-    ```
-
-renders as
-
-```mermaid
-graph TD
-A[Hard] -->|Text| B(Round)
-B --> C{Decision}
-C -->|One| D[Result 1]
-C -->|Two| E[Result 2]
-```
-
-An example **sequence diagram**:
-
-    ```mermaid
-    sequenceDiagram
-    Alice->>John: Hello John, how are you?
-    loop Healthcheck
-        John->>John: Fight against hypochondria
-    end
-    Note right of John: Rational thoughts!
-    John-->>Alice: Great!
-    John->>Bob: How about you?
-    Bob-->>John: Jolly good!
-    ```
-
-renders as
-
-```mermaid
-sequenceDiagram
-Alice->>John: Hello John, how are you?
-loop Healthcheck
-    John->>John: Fight against hypochondria
-end
-Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
-```
-
-An example **class diagram**:
-
-    ```mermaid
-    classDiagram
-    Class01 <|-- AveryLongClass : Cool
-    Class03 *-- Class04
-    Class05 o-- Class06
-    Class07 .. Class08
-    Class09 --> C2 : Where am i?
-    Class09 --* C3
-    Class09 --|> Class07
-    Class07 : equals()
-    Class07 : Object[] elementData
-    Class01 : size()
-    Class01 : int chimp
-    Class01 : int gorilla
-    Class08 <--> C2: Cool label
-    ```
-
-renders as
-
-```mermaid
-classDiagram
-Class01 <|-- AveryLongClass : Cool
-Class03 *-- Class04
-Class05 o-- Class06
-Class07 .. Class08
-Class09 --> C2 : Where am i?
-Class09 --* C3
-Class09 --|> Class07
-Class07 : equals()
-Class07 : Object[] elementData
-Class01 : size()
-Class01 : int chimp
-Class01 : int gorilla
-Class08 <--> C2: Cool label
-```
-
-An example **state diagram**:
-
-    ```mermaid
-    stateDiagram
-    [*] --> Still
-    Still --> [*]
-    Still --> Moving
-    Moving --> Still
-    Moving --> Crash
-    Crash --> [*]
-    ```
-
-renders as
-
-```mermaid
-stateDiagram
-[*] --> Still
-Still --> [*]
-Still --> Moving
-Moving --> Still
-Moving --> Crash
-Crash --> [*]
+```bash
+npm init -y   # package.json 파일 생성
+npm install express  # Express 설치
 ```
 
 ## Data Frames
