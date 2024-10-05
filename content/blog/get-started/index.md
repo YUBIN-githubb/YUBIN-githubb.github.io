@@ -1,86 +1,82 @@
 ---
-title: 🎉 Easily create your own simple yet highly customizable blog
-summary: Take full control of your personal brand and privacy by migrating away from the big tech platforms!
-date: 2023-10-27
+title: JavaScript 비동기 처리
+summary: Promise, async/await 쉽게 이해하기
+date: 2024-10-04
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: '자바스크립트로고이미지.png'
 
 authors:
   - admin
-  - Ted
 
-tags:
-  - Academic
-  - Hugo Blox
-  - Markdown
+# tags:
+#   - Academic
+#   - Hugo Blox
+#   - Markdown
 ---
 
-Welcome 👋
+# JavaScript 비동기 처리: Promise, async/await 쉽게 이해하기
 
-{{< toc mobile_only=true is_open=true >}}
+JavaScript에서 비동기 처리는 중요한 개념입니다. 특히 웹 개발에서 서버와의 통신, 파일 처리 등에 자주 사용됩니다. 이 글에서는 Promise와 async/await에 대해 알아보겠습니다.
 
-## Overview
+## Promise란?
 
-1. The Hugo Blox website builder for Hugo, along with its starter templates, is designed for professional creators, educators, and teams/organizations - although it can be used to create any kind of site
-2. The template can be modified and customised to suit your needs. It's a good platform for anyone looking to take control of their data and online identity whilst having the convenience to start off with a **no-code solution (write in Markdown and customize with YAML parameters)** and having **flexibility to later add even deeper personalization with HTML and CSS**
-3. You can work with all your favourite tools and apps with hundreds of plugins and integrations to speed up your workflows, interact with your readers, and much more
+Promise는 비동기 연산의 최종 완료 또는 실패를 나타내는 객체입니다.
 
-[//]: # ([![The template is mobile first with a responsive design to ensure that your site looks stunning on every device.]&#40;https://raw.githubusercontent.com/wowchemy/wowchemy-hugo-modules/main/starters/academic/preview.png&#41;]&#40;https://hugoblox.com&#41;)
+### Promise의 상태
+1. 대기(pending): 초기 상태
+2. 이행(fulfilled): 연산 성공
+3. 거부(rejected): 연산 실패
 
-### Get Started
+### Promise 사용 예시
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+```javascript
+const myPromise = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    const randomNum = Math.random();
+    if (randomNum > 0.5) {
+      resolve("성공!");
+    } else {
+      reject("실패!");
+    }
+  }, 1000);
+});
 
-## Crowd-funded open-source software
+myPromise
+  .then(result => console.log(result))
+  .catch(error => console.error(error));
+```
 
-To help us develop this template and software sustainably under the MIT license, we ask all individuals and businesses that use it to help support its ongoing maintenance and development via sponsorship.
+## async/await
 
-### [❤️ Click here to become a sponsor and help support Hugo Blox's future ❤️](https://hugoblox.com/sponsor/)
+async/await는 Promise를 더 쉽게 사용할 수 있게 해주는 문법적 설탕(syntactic sugar)입니다.
 
-As a token of appreciation for sponsoring, you can **unlock [these](https://hugoblox.com/sponsor/) awesome rewards and extra features 🦄✨**
+### async 함수
 
-## Ecosystem
+`async` 키워드를 사용하여 함수를 선언하면, 해당 함수는 항상 Promise를 반환합니다.
 
-- **[Bibtex To Markdown](https://github.com/GetRD/academic-file-converter):** Automatically import publications from BibTeX
+### await 키워드
 
-## Inspiration
+`await` 키워드는 Promise가 처리될 때까지 함수의 실행을 일시 중지합니다.
 
-[Learn what other **creators**](https://hugoblox.com/creators/) are building with this template.
+### async/await 사용 예시
 
-## Features
+```javascript
+async function fetchData() {
+  try {
+    const response = await fetch('https://api.example.com/data');
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('데이터 가져오기 실패:', error);
+  }
+}
 
-- **Page builder** - Create _anything_ with no-code [**blocks**](https://hugoblox.com/blocks/) and [**elements**](https://docs.hugoblox.com/reference/markdown/)
-- **Edit any type of content** - Blog posts, publications, talks, slides, projects, and more!
-- **Create content** in [**Markdown**](https://docs.hugoblox.com/reference/markdown/), [**Jupyter**](https://docs.hugoblox.com/getting-started/cms/), or [**RStudio**](https://docs.hugoblox.com/getting-started/cms/)
-- **Plugin System** - Fully customizable [**color** and **font themes**](https://docs.hugoblox.com/getting-started/customize/)
-- **Display Code and Math** - Code syntax highlighting and LaTeX math supported
-- **Integrations** - [Google Analytics](https://analytics.google.com), [Disqus commenting](https://disqus.com), Maps, Contact Forms, and more!
-- **Beautiful Site** - Simple and refreshing one-page design
-- **Industry-Leading SEO** - Help get your website found on search engines and social media
-- **Media Galleries** - Display your images and videos with captions in a customizable gallery
-- **Mobile Friendly** - Look amazing on every screen with a mobile friendly version of your site
-- **Multi-language** - 35+ language packs including English, 中文, and Português
-- **Multi-user** - Each author gets their own profile page
-- **Privacy Pack** - Assists with GDPR
-- **Stand Out** - Bring your site to life with animation, parallax backgrounds, and scroll effects
-- **One-Click Deployment** - No servers. No databases. Only files.
+fetchData();
+```
 
-## Themes
+## 정리
 
-Hugo Blox and its templates come with **automatic day (light) and night (dark) mode** built-in. Visitors can choose their preferred mode by clicking the sun/moon icon in the header.
-
-[Choose a stunning **theme** and **font**](https://docs.hugoblox.com/getting-started/customize/) for your site. Themes are fully customizable.
-
-## License
-
-Copyright 2016-present [George Cushen](https://georgecushen.com).
-
-Released under the [MIT](https://github.com/HugoBlox/hugo-blox-builder/blob/main/LICENSE.md) license.
+Promise와 async/await는 JavaScript에서 비동기 처리를 더 쉽고 깔끔하게 만들어줍니다. Promise는 비동기 연산의 상태를 관리하고, async/await는 이를 더 동기적으로 보이는 코드로 작성할 수 있게 해줍니다. 이 두 가지 개념을 잘 이해하고 활용하면, 복잡한 비동기 로직도 효과적으로 다룰 수 있습니다.
