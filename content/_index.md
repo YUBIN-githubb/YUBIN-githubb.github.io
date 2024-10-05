@@ -132,6 +132,7 @@ sections:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
         padding: ["6rem", 0, 0, 0]
   - block: cta-card
+    id: resume
     content:
       title: 팀에 기여할 준비가 되어있습니다!
       text: 이력서를 확인해주세요
