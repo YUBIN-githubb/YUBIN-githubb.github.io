@@ -15,7 +15,7 @@ main:
   - name: Project
     url: /#graduation-project
     weight: 40
-  - name: Resources
+  - name: Resume
     url: /#resume
     weight: 50
     hasChildren: true

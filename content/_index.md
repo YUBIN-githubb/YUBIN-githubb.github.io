@@ -108,7 +108,7 @@ sections:
             - 뉴스 제목과 내용에서 주요 키워드를 추출하여 긍정, 부정, 중립 감성으로 분류합니다.
             - 워드클라우드와 색상 표시를 사용하여 분석 결과를 직관적으로 표현합니다.
           # Upload image to `assets/media/` and reference the filename here
-          image: coffee.jpg
+          image: textmining.jpg
           # button:
           #   text: Join Discord
           #   url: https://discord.gg/z8wNYzb
