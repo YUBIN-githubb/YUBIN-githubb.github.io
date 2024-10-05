@@ -8,7 +8,7 @@ authors:
 #   - Hugo
 #   - Hugo Blox
 #   - Markdown
-image: \blog\data-visualization\nodejs.png
+image: "\blog\data-visualization\nodejs.png"
 ---
 
 축구를 좋아하는 사람이라면 자신만의 축구 커뮤니티를 만들고 싶다는 생각을 한 번쯤 해봤을 것입니다. 이번 글에서는 Node.js와 Express를 사용하여 축구 커뮤니티 페이지를 만드는 과정을 설명하려고 합니다. 기본적인 사용자 등록, 게시판 기능 등을 구현하며 Node.js와 Express의 기본 개념을 익힐 수 있습니다.
