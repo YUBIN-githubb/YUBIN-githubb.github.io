@@ -112,6 +112,14 @@ sections:
           # button:
           #   text: Join Discord
           #   url: https://discord.gg/z8wNYzb
+        - title: Node.js 기반의 축구 커뮤니티 웹
+          text: express와 Node.js를 활용한 웹페이지
+          feature_icon: check
+          features:
+            - 사용자들은 축구관련 정보를 나눌 수 있습니다.
+            - 카테고리로 리그가 나뉘어져 있어 리그 별로 게시물 작성이 가능합니다.
+          # Upload image to `assets/media/` and reference the filename here
+          image: football.png
     design:
       # Section background color (CSS class)
       css_class: "bg-gray-100 dark:bg-gray-900"
