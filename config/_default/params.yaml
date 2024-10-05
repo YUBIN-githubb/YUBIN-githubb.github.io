@@ -13,8 +13,8 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: ''
-    description: '전북대 문유빈의 개발블로그'
+    org_name: '전북대학교'
+    description: '문유빈의 개발 프로필'
     # twitter: 'GetResearchDev'
     image: "logo.png"
   analytics:
