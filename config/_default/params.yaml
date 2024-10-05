@@ -43,6 +43,8 @@ header:
     #   url: "https://hugoblox.com/templates/"
     show_search: true
     show_theme_chooser: true
+  favicon:
+    filename: "logo.png"
 
 # Site footer
 footer:

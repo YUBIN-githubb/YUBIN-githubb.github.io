@@ -19,7 +19,7 @@ sections:
         icon: brands/github
       secondary_action:
         text: Read the resume
-        url: https://docs.hugoblox.com
+        url: https://excessive-frame-7c0.notion.site/a2d778b0cda249c7a1fc3686f99b81f2?pvs=4
       # announcement:
       #   text: ""
       #   link:
