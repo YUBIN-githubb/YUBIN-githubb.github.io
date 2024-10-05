@@ -35,13 +35,13 @@ profiles:
     label: E-mail Me
   # - icon: brands/x
   #   url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/%EC%9C%A0%EB%B9%88-%EB%AC%B8-857215316/
   # Link to a PDF of your resume/CV - upload it to `static/uploads/resume.pdf`
   - icon: academicons/cv
-    url: uploads/resume.pdf
+    url: https://excessive-frame-7c0.notion.site/a2d778b0cda249c7a1fc3686f99b81f2?pvs=4
     label: Download my resume
   # - icon: rss
   #   url: ./post/index.xml
