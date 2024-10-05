@@ -96,7 +96,7 @@ sections:
             - 할루시네이션을 줄이도록 RAG 기술을 도입하였습니다. LLM은 식약처에서 제공한 민원인 안내서 문서만을 참고하여 답변합니다.
             - 상황에 맞는 임상시험 가이드라인을 AI에 제시하도록 요구할 수 있습니다.
           # Upload image to `assets/media/` and reference the filename here
-          image: build-website.png
+          image: ragAI.jpg
           button:
             text: Github Respository
             url: https://github.com/YUBIN-githubb/KimRyuMoon_repo
