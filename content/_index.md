@@ -124,7 +124,10 @@ sections:
           role: "Software Engineering"
           # Upload image to `assets/media/` and reference the filename here
           image: "avatar.jpg"
-          text: "😎 모든것은 재미있어야 합니다  👌 불편한 점을 개선하는 걸 좋아합니다  🦻 쉽게 말하고 열심히 들으려고 노력합니다"
+          text: "안녕하세요 문유빈 입니다.  
+            😎 모든것은 재미있어야 합니다  
+            👌 불편한 점을 개선하는 걸 좋아합니다  
+            🦻 쉽게 말하고 열심히 들으려고 노력합니다"
     design:
       spacing:
         # Reduce bottom spacing so the testimonial appears vertically centered between sections
