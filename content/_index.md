@@ -137,7 +137,7 @@ sections:
       text: 이력서를 확인해주세요
       button:
         text: Resume
-        url: https://hugoblox.com/templates/
+        url: https://excessive-frame-7c0.notion.site/a2d778b0cda249c7a1fc3686f99b81f2?pvs=4
     design:
       card:
         # Card background color (CSS class)
