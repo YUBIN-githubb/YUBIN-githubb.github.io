@@ -1,94 +1,69 @@
 ---
-title: ✅ Manage your projects
-summary: Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
-date: 2023-10-23
+title: SEO 친화적인 웹사이트 만들기
+summary: 검색 엔진 최적화(SEO) 기초
+date: 2024-10-01
 authors:
   - admin
-tags:
-  - Hugo Blox
-  - Markdown
+# tags:
+#   - Hugo Blox
+#   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'seo.png'
 ---
 
-Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!
+# SEO 친화적인 웹사이트 만들기: 검색 엔진 최적화(SEO) 기초
 
-## Ideation
+검색 엔진 최적화(SEO)는 웹사이트의 가시성을 높이고 organic 트래픽을 증가시키는 중요한 전략입니다. 이 글에서는 SEO 친화적인 웹사이트를 만들기 위한 기본적인 팁들을 소개합니다.
 
-Hugo Blox supports a Markdown extension for mindmaps.
+## 1. 품질 높은 콘텐츠 제작
 
-Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
+- 사용자에게 가치 있는 정보를 제공하세요.
+- 정확하고 최신의 정보를 담고 있는지 확인하세요.
+- 읽기 쉽고 잘 구조화된 콘텐츠를 만드세요.
 
-Mindmaps can be created by simply writing the items as a Markdown list within the `markmap` code block, indenting each item to create as many sub-levels as you need:
+## 2. 키워드 최적화
 
-<div class="highlight">
-<pre class="chroma">
-<code>
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-</code>
-</pre>
-</div>
+- 관련성 높은 키워드를 연구하고 선택하세요.
+- 제목, 메타 설명, 본문 내용에 자연스럽게 키워드를 포함시키세요.
+- 과도한 키워드 사용(키워드 스터핑)은 피하세요.
 
-renders as
+## 3. 메타 태그 최적화
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
+```html
+<title>페이지 제목 - 웹사이트 이름</title>
+<meta name="description" content="페이지에 대한 간결하고 정확한 설명">
 ```
 
-## Diagrams
+- 각 페이지마다 고유하고 설명적인 title 태그를 사용하세요.
+- meta description을 통해 페이지 내용을 간단히 요약하세요.
 
-Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
+## 4. URL 구조 최적화
 
-An example **Gantt diagram**:
+- 간결하고 이해하기 쉬운 URL을 사용하세요.
+- URL에 키워드를 포함시키세요.
+- 예: `www.example.com/seo-friendly-website-tips`
 
-    ```mermaid
-    gantt
-    section Section
-    Completed :done,    des1, 2014-01-06,2014-01-08
-    Active        :active,  des2, 2014-01-07, 3d
-    Parallel 1   :         des3, after des1, 1d
-    Parallel 2   :         des4, after des1, 1d
-    Parallel 3   :         des5, after des3, 1d
-    Parallel 4   :         des6, after des4, 1d
-    ```
+## 5. 모바일 최적화
 
-renders as
+- 반응형 디자인을 사용하여 모든 디바이스에서 잘 작동하도록 하세요.
+- 모바일에서의 로딩 속도를 개선하세요.
 
-```mermaid
-gantt
-section Section
-Completed :done,    des1, 2014-01-06,2014-01-08
-Active        :active,  des2, 2014-01-07, 3d
-Parallel 1   :         des3, after des1, 1d
-Parallel 2   :         des4, after des1, 1d
-Parallel 3   :         des5, after des3, 1d
-Parallel 4   :         des6, after des4, 1d
-```
+## 6. 페이지 속도 개선
 
-## Todo lists
+- 이미지를 최적화하세요.
+- 브라우저 캐싱을 활용하세요.
+- 불필요한 코드를 제거하세요.
 
-You can even write your todo lists in Markdown too:
+## 7. 내부 링크 구조 개선
 
-```markdown
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
-```
+- 관련 콘텐츠 간의 내부 링크를 적절히 사용하세요.
+- 명확하고 설명적인 앵커 텍스트를 사용하세요.
 
-renders as
+## 8. 백링크 구축
 
-- [x] Write math example
-  - [x] Write diagram example
-- [ ] Do something else
+- 고품질의 외부 웹사이트로부터 백링크를 얻으세요.
+- 자연스러운 링크 획득 전략을 사용하세요.
 
-## Did you find this page helpful? Consider sharing it 🙌
+## 결론
+
+SEO는 지속적인 과정입니다. 이러한 기본적인 SEO 전략을 꾸준히 적용하면서 웹사이트의 성능을 모니터링하고 개선해 나가는 것이 중요합니다. 검색 엔진의 알고리즘은 계속 변화하므로, SEO 트렌드를 주시하고 그에 맞춰 전략을 조정해 나가세요.
