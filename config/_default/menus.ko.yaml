@@ -1,0 +1,24 @@
+# Navigation Links
+#   To link a page section, specify the URL as a hash `/#` followed by the `id` of the section.
+#   The `weight` parameter defines the order that the links will appear in.
+
+main:
+  - name: 메인
+    url: /#top
+    weight: 10
+  - name: 정보
+    url: /#info
+    weight: 20
+  - name: 기술 스택
+    url: /#skills
+    weight: 30
+  - name: 프로젝트
+    url: /#graduation-project
+    weight: 40
+  - name: 이력서
+    url: /#resume
+    weight: 50
+    hasChildren: true
+  - parent: 스터디
+    name: 블로그
+    url: blog/
