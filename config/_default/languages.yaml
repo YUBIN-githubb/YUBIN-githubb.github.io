@@ -1,7 +1,12 @@
 #   Documentation: https://docs.hugoblox.com/reference/language/
 
 # Default language
+ko:
+  languageCode: ko
+  contentDir: content/ko  # 한국어 콘텐츠 경로 설정
+
 en:
-  languageCode: en-us
+  languageCode: en
+  contentDir: content/en  # 영어 콘텐츠 경로 설정
   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
   #contentDir: content/en
