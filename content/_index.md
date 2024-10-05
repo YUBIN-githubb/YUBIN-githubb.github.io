@@ -118,6 +118,9 @@ sections:
           features:
             - 사용자들은 축구관련 정보를 나눌 수 있습니다.
             - 카테고리로 리그가 나뉘어져 있어 리그 별로 게시물 작성이 가능합니다.
+          button:
+            text: Github Respository
+            url: https://github.com/YUBIN-githubb/YUBIN-githubb.git
           # Upload image to `assets/media/` and reference the filename here
           image: football.png
     design:
