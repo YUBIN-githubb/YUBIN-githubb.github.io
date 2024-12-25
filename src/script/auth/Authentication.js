@@ -32,4 +32,31 @@ const tryRegister = (email, password, success, fail) => {
     }
 };
 
-export { tryLogin, tryRegister };
+// export { tryLogin, tryRegister };
+//
+// export function initializeKakao() {
+//     const kakaoKey = import.meta.env.VITE_KAKAO_JAVASCRIPT_KEY; // .env에서 가져옴
+//     if (!window.Kakao.isInitialized()) {
+//         window.Kakao.init(kakaoKey);
+//         console.log("Kakao SDK initialized with key:", kakaoKey);
+//     }
+// }
+//
+// export function kakaoLogin() {
+//     return new Promise((resolve, reject) => {
+//         if (!window.Kakao.isInitialized()) {
+//             reject("Kakao SDK not initialized");
+//         }
+//         window.Kakao.Auth.login({
+//             success: function (authObj) {
+//                 console.log(authObj);
+//                 resolve(authObj);
+//             },
+//             fail: function (err) {
+//                 console.error(err);
+//                 reject(err);
+//             },
+//         });
+//     });
+// }
+
